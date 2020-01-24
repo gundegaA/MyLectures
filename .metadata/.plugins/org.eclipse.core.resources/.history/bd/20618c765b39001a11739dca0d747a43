@@ -1,0 +1,18 @@
+
+public class ControlFlowIf {
+
+	
+	public static void main(String[] args) {
+		
+		int x=101;
+		int y=22;
+		
+		if(x%2==0){
+			System.out.println("para skaitlis");
+		}
+		else {
+			System.out.println("nepara skaitlis");
+		}
+	}
+
+}

@@ -1,0 +1,13 @@
+
+public class OperatorsMath {
+
+	public static void main(String[] args) {
+		double num1 = 0.4;
+		double num2 = 0.02;
+		double result = num1+num2;
+		char operators = '+';
+		System.out.println(""+num1 + " "+operators+" " +num2 + " = "+ result);
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;ArraysPrimitive&apos; to &apos;ArraysPrimitiveDataType&apos;&#x0A;- Original project: &apos;lecture3&apos;&#x0A;- Original element: &apos;ArraysPrimitive&apos;&#x0A;- Renamed element: &apos;ArraysPrimitiveDataType&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;ArraysPrimitive&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{ArraysPrimitive.java[ArraysPrimitive" matchStrategy="1" name="ArraysPrimitiveDataType" qualified="false" references="true" similarDeclarations="false" stamp="1579349826766" textual="false" version="1.0"/>
+</session>
