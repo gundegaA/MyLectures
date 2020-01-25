@@ -1,0 +1,18 @@
+package lv.gundega.learstring;
+
+public class testStringClass {
+
+	
+	public static void main(String[] args) {
+
+		String str="Index";
+		String strClass =new String(str);
+		
+		System.out.println(str);
+		System.out.println("String like object "+strClass);
+		
+		int stringLength =str.length();
+		System.out.println(stringLength);
+	}
+
+}

@@ -1,0 +1,14 @@
+package lv.gundega.learstring;
+
+public class testStringClass {
+
+	
+	public static void main(String[] args) {
+
+		String str="Index";
+		
+		System.out.println(str);
+
+	}
+
+}
