@@ -1,0 +1,9 @@
+package lv.gundega.learjavaclass;
+
+public class Box {
+	
+	double width;
+	double height=20.23;
+	double depth;
+
+}

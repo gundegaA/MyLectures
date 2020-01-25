@@ -1,0 +1,27 @@
+package lv.gundega;
+
+public class LearnMethodsWithParameter {
+
+	
+	public static void main(String[] args) {
+		
+		double radiuss = 30.9;
+		
+		int resultWithCastInt = getArea(radiuss);
+		System.out.println("Area of circle is "+resultWithCastInt);
+		
+		double result = getAreaForCircle(radiuss);
+		System.out.println("Area of circle is "+result);
+
+	}
+
+	public static int getArea(double radiuss){
+		double result = Math.PI*radiuss*radiuss;
+		return (int) result;
+	}
+	
+	public static double getAreaForCircle(double radiuss){
+		double result = Math.PI*radiuss*radiuss;
+		return result;
+	}
+}
