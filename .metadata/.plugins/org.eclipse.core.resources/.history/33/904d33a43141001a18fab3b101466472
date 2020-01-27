@@ -1,0 +1,5 @@
+package lv.gundega.bookstore;
+
+public class Book {
+
+}
