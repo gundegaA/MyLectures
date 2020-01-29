@@ -1,0 +1,5 @@
+package lv.gundega.graph;
+
+public class Point4D {
+
+}

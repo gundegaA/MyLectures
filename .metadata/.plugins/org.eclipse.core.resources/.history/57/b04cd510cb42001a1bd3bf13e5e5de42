@@ -1,0 +1,22 @@
+package lv.gundega;
+
+import java.util.Arrays;
+
+public class TestPerson {
+
+	
+	public static void main(String[] args) {
+		
+		String[] strArr = new String[4];
+		strArr[0]= "Sport";
+		strArr[1]= "Math";
+		strArr[2]= "Chemistry";
+		strArr[3]= "History";
+		
+		System.out.println(Arrays.toString(strArr));
+		
+		
+
+	}
+
+}

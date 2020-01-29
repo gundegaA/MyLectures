@@ -1,0 +1,27 @@
+package lv.gundega;
+
+import lv.gundega.graph.Point2D;
+
+public class TestInheritance {
+
+	
+	public static void main(String[] args) {
+		
+		//veidojam objektu Point2D instanci
+		Point2D point =new Point2D();
+		//pats defaultakais rasejums
+		System.out.println(point.toString());
+		
+		//tagad izmantosim otru konstruktoru
+		Point2D pointxy = new Point2D(10,-2);
+		System.out.println(pointxy.toString());
+		
+		//abi darbojas ari bez toString!!!!!!!!!!!!!!!!!
+		
+		pointxy.setX(3);
+		pointxy.setY(-89);
+		System.out.println(pointxy);
+		
+	}
+
+}

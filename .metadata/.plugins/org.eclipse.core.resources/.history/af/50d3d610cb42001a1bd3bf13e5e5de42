@@ -1,0 +1,21 @@
+package lv.gundega.users;
+
+public class Student extends Person {
+	
+	private int numCourse;
+	private String [] courses;
+	private int[] grades;
+	
+	public Student(String name,String address ){
+	super(name,address)	;
+	}
+	
+	public void addCourseGrade(String kurss, int atzime){
+		
+		
+	}
+	//vel vajadzes videjo
+	
+	
+
+}
