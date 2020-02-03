@@ -1,0 +1,17 @@
+package lv.gundega;
+
+import java.util.ArrayList;
+
+public class TestArrayListsWithObjects {
+
+	
+	public static void main(String[] args) {
+		
+		Integer intObj = 40;
+		System.out.println(intObj);
+
+		//ArrayList<int> cars = new ArrayList<>();
+
+	}
+
+}
