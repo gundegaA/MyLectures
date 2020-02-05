@@ -1,0 +1,16 @@
+package lv.gundega;
+
+public class TestRegex {
+
+	
+	public static void main(String[] args) {
+		
+		String inputStr = "abdc03030u3034_5";
+		String regexStrExp = "[0-9]+";
+		
+		System.out.println(InputStr.charAt[0]);
+		
+		
+	}
+
+}

@@ -27,6 +27,10 @@ public class League {
 		this.nameOfTeams = nameOfTeams;
 	}
 	
+	public void recordWinsAndLoss(Team winner, Team loser){
+		winner.setWins(1);
+		//lose.set
+	}
 	
 	@Override
 	public String toString() {

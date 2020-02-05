@@ -1,5 +1,5 @@
 ColorsAndFontsPreferencePage.expandedCategories=Torg.eclipse.jdt.ui.presentation
-ColorsAndFontsPreferencePage.selectedElement=Forg.eclipse.jdt.ui.editors.textfont
+ColorsAndFontsPreferencePage.selectedElement=Corg.eclipse.jdt.ui.JavadocView.backgroundColor
 eclipse.preferences.version=1
 org.eclipse.jdt.ui.PropertiesFileEditor.textfont=1|Monospace|12.0|0|GTK|1|;
 org.eclipse.jdt.ui.editors.textfont=1|Monospace|12.0|0|GTK|1|;
