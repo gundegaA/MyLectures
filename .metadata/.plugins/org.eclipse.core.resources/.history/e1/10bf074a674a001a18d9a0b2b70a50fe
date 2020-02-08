@@ -1,0 +1,14 @@
+package lv.gundega.inputoutput;
+
+import java.io.*;
+
+public class TestCreateAndWriteFile {
+
+	
+	public static void main(String[] args) {
+	
+		File fileObj = new File("Data2.txt");
+
+	}
+
+}

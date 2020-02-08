@@ -1,18 +1,22 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 
 public class Test {
 
 	public static void main(String[] args) {
 
-		ArrayList<Integer> list1 = new ArrayList<Integer>(Arrays.asList(1, 4, 8, 9, 11, 15, 17, 28, 41, 59));
+		ArrayList<Integer> list1 = new ArrayList<Integer>(Arrays.asList(1, 4, 5,7,8,24));
 
-		ArrayList<Integer> list2 = new ArrayList<Integer>(Arrays.asList(4, 7, 8, 11, 17, 19, 20, 23, 28, 37, 59, 81));
+		ArrayList<Integer> list2 = new ArrayList<Integer>(Arrays.asList(3,8,4,1,24 ));
 
 		System.out.println("List1 is: " + list1);
 		System.out.println("List2 is: " + list2);
+		Collections.sort(list1);
+		Collections.sort(list2);
 		System.out.println("Elements in both lists: ");
 		System.out.println(intersect(list1, list2));
+		
 	}
 	// beidzas main
 

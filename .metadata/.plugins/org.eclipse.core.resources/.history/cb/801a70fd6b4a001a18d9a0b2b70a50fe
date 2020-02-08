@@ -1,0 +1,33 @@
+package lv.gundega.inputoutput;
+
+import java.io.*;
+
+public class TestCreateAndWriteFile {
+
+	
+	public static void main(String[] args) throws Exception {
+	
+		File fileObj = new File("Data2.txt");
+		
+		//RAKSTA ARI BEZ SI UN IZVEIDO JAUNO FAILU!!!!!!
+		
+//		if(fileObj.createNewFile()){
+//			System.out.println("File created: "+ fileObj.getName());
+//		}else{
+//			System.out.println("File already exists");
+//		}
+		FileWriter fw = new FileWriter (fileObj);
+		//fw.write("How are you doing? +++++");
+		fw.append("\n Im good!");
+		fw.close();
+		
+		appendUsingFileWriter(fileObj, "hhhhhhh");
+		
+	}
+
+	private static void appendUsingFileWriter(File fileObj, String string) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

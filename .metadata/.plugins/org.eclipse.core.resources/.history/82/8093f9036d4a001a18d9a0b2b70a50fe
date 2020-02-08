@@ -1,0 +1,44 @@
+package lv.gundega.inputoutput;
+
+import java.io.*;
+
+public class TestCreateAndWriteFile {
+
+	
+	public static void main(String[] args) throws Exception {
+	
+		File fileObj = new File("Data2.txt");
+		String textToAppend = "Happy Learning !!";
+		BufferedWriter writer = new BufferedWriter(
+				new FileWriter(fileObj, true)
+				);
+		writer.newLine();
+		writer.write(textToAppend);
+		writer.write(" \n ++++++hhhhhhdshdhdhdhdhd");
+		 writer.close();
+		//RAKSTA ARI BEZ SI UN IZVEIDO JAUNO FAILU!!!!!!
+		
+//		if(fileObj.createNewFile()){
+//			System.out.println("File created: "+ fileObj.getName());
+//		}else{
+//			System.out.println("File already exists");
+//		}
+		//FileWriter fw = new FileWriter (fileObj);
+		//fw.write("How are you doing? +++++");
+		//fw.append("\n Im good!");
+		//fw.close();
+		
+
+		
+	}
+//	String textToAppend = "Happy Learning !!";
+//    
+//    BufferedWriter writer = new BufferedWriter(
+//                                  //Set true for append mode
+//                            );  
+//       //Add new line
+//    
+//   
+	
+
+}

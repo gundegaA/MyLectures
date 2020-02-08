@@ -1,0 +1,21 @@
+package lv.gundega.inputoutput;
+
+import java.io.*;
+
+public class TestWriteFile {
+
+	
+	public static void main(String[] args) throws Exception{
+		File file = new File("Data1.txt");
+		
+		BufferedWriter bw = new BufferedWriter(new FileWriter(file));
+		
+		String stringToFile = "Hello, Gundega! :)";
+		bw.write(stringToFile);
+		
+		bw.close();
+		
+
+	}
+
+}

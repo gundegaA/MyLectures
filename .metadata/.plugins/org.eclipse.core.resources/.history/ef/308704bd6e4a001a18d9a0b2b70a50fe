@@ -1,0 +1,25 @@
+package lv.gundega.inputoutput;
+
+import java.io.File;
+import java.util.Scanner;
+
+public class TestChangeStringToFile {
+
+	
+	public static void main(String[] args) {
+		
+//		String defaultStr = "Dear user userName";
+//		String lastString = defaultStr.replace("username", "");
+//		System.out.println(lastString+"Gundega");
+		
+		File file = new File ("DefaultText.txt");
+		Scanner sc = new Scanner (file);
+		String stringFromTextFile = "";
+		while (sc.hasNextLine()){
+			stringFromTextFile=sc.nextLine();
+			
+		}
+		System.out.println("Check: "+sc.nextLine());
+	}
+
+}
