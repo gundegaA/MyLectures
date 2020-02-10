@@ -1,0 +1,58 @@
+package lv.gundega.module;
+
+import java.util.ArrayList;
+
+public class League {
+
+	private String nameOfLeague;
+	public ArrayList <Team> nameOfTeams;
+	
+	
+	public League (String leagueName){
+		this.nameOfLeague = leagueName;
+		this.nameOfTeams = new ArrayList<>();
+	}
+	
+	
+	public String getNameOfLeague() {
+		return nameOfLeague;
+	}
+	public void setNameOfLeague(String nameOfLeague) {
+		this.nameOfLeague = nameOfLeague;
+	}
+	public ArrayList<Team> getNameOfTeams() {
+		return nameOfTeams;
+	}
+	public void setNameOfTeams(ArrayList<Team> nameOfTeams) {
+		this.nameOfTeams = nameOfTeams;
+	}
+	
+	public void recordWinsAndLoss(Team winner, Team loser){
+		winner.wins++;
+		loser.losses++;
+		
+	}
+	public void recordTies(Team one, Team two){
+		one.ties++;
+		two.ties++;
+		
+	}
+	/////////
+	public Team checkIfTeamExistsInLeague(String nameToLookFor){
+		Team teamCreated = null;
+		for(Team team : this.nameOfTeams){
+			if(team.name.toLowerCase().equals (nameToLookFor.toLowerCase())){
+				teamCreated =team;
+			}
+		}
+		return teamCreated;
+	/////////
+	}
+	@Override
+	public String toString() {
+		return "League [nameOfLeague=" + nameOfLeague + ", nameOfTeams="
+				+ nameOfTeams +"]";
+	}
+	
+	
+}

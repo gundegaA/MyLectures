@@ -9,20 +9,47 @@ public class TestTeamAndLeagues {
 
 	
 	public static void main(String[] args) {
-		ArrayList<Team> arrTeam = new ArrayList <>();
+		ArrayList<Team> khlTeam = new ArrayList <>();
+		
 		
 		Team ska = new Team ("SKA");
 		Team cska = new Team ("CSKA");
-		arrTeam.add(ska);
-		arrTeam.add(cska);
-		League khl = new League ("KHL");
-		//khl.nameOfTeams.add(cska);
-		//khl.nameOfTeams.add(ska);
+		Team dinamo = new Team ("DINAMO");
+		Team spartak = new Team ("Spartak");
+		Team  torpedo = new Team ("Torpedo");
+		Team jokerit = new Team ("Jokerit");
 		
-		//khl.setNameOfTeams(ska);
-		khl.setNameOfTeams(arrTeam);
+		khlTeam.add(ska);
+		khlTeam.add(cska);
+		khlTeam.add(dinamo);
+		khlTeam.add(spartak);
+		khlTeam.add(torpedo);
+		khlTeam.add(jokerit);
+		
+		for (Team t: khlTeam){
+			System.out.println(t.getName());
+		}
+	
+		League khl = new League ("KHL");
+		khl.recordWinsAndLoss("SKA", "CSKA");
+		khl.recordWinsAndLoss("SKA", "CSKA");
+		//khl.recordWinsAndLoss("ska", "dinamo");
+		khl.recordTies(ska, dinamo);
+		khl.recordTies(ska, cska);
+		
+		
+		
+		
+		khl.setNameOfTeams(khlTeam);
 		System.out.println(khl.toString());
 		
+		System.out.println(khl.checkIfTeamExistsInLeague("ska"));
+		
+		
+	}
+
+	private static void recordWinsAndLoss(Team ska, Team cska) {
+		// TODO Auto-generated method stub
 		
 	}
 
