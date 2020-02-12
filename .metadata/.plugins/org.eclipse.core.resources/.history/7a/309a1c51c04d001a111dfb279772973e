@@ -1,0 +1,25 @@
+import java.lang.Math;
+public class PowerSum {
+	
+	
+	public static void main(String[] args) {
+		
+		int x=2;
+		int power = 15;
+		long result;
+		result = (long) Math.pow(x, power);
+		System.out.println("result is "+ result);
+		
+		int length = String.valueOf(result).length();
+		int maxDiv = (int) Math.pow(10, length);
+		System.out.println(maxDiv);
+		
+		long sum = 0;
+		for (int i=0; i<length;i++){
+			sum =sum+result/maxDiv-sum*10*i;
+			System.out.println(sum);
+			maxDiv = maxDiv/10;
+		}
+	}
+
+}

@@ -1,0 +1,26 @@
+package lv.gundega;
+
+import lv.gundega.repeatJavaClassOOP.MyClass;
+import lv.gundega.repeatJavaClassOOP.MyClassMethods;
+
+public class TestOOP {
+
+	
+	public static void main(String[] args) {
+		
+		MyClass newObj = new MyClass();
+		
+		newObj.getClass();
+		newObj.x=2;
+		
+		MyClass newObj2 =new MyClass();
+		
+		System.out.println(newObj.equals(newObj2));
+		
+		MyClassMethods myObjMethod = new MyClassMethods();
+		myObjMethod.myMethod();
+		
+
+	}
+
+}

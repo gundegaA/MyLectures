@@ -1,0 +1,8 @@
+package lv.gundega.repeatJavaClassOOP;
+
+public class MyClassMethods {
+
+		static void myMethod(){
+			System.out.println("Hellooo");
+		}
+}

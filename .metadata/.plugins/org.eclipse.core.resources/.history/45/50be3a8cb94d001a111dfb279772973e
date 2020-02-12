@@ -1,0 +1,17 @@
+package lv.gundega;
+
+import lv.gundega.repeatJavaClassOOP.MyClass;
+
+public class TestOOP {
+
+	
+	public static void main(String[] args) {
+		
+		MyClass newObj = new MyClass();
+		
+		newObj.getClass();
+		
+
+	}
+
+}

@@ -1,0 +1,41 @@
+
+	
+	import java.math.BigDecimal;
+	import java.math.RoundingMode;
+
+	public class PowerSum {
+
+	    private static final BigDecimal one = new BigDecimal("1");
+	    private static final BigDecimal ten = new BigDecimal("10");
+
+	    private static BigDecimal sumofDigits(BigDecimal n){
+
+	        BigDecimal sum = new BigDecimal("0");
+
+	        while(n.compareTo(one) == 1 || n.compareTo(one) == 0){
+
+	            sum.add(n.remainder(ten));
+
+	            n.divide(ten);
+
+	            n = n.setScale(0, RoundingMode.FLOOR);
+
+	        }
+
+	    return sum;
+
+	    }
+
+	    public static void main(String[] args) {
+
+	        final double the_number = Math.pow(2,1000);
+
+	        final double test = 15;
+
+	        final BigDecimal two_to_the_thousandth_power = new BigDecimal(test);
+
+	        System.out.println(sumofDigits(two_to_the_thousandth_power));
+
+	    }
+
+	}

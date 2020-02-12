@@ -1,0 +1,14 @@
+
+public class PowerSum {
+
+	
+	public static void main(String[] args) {
+		
+		int x=2;
+		int power = 15;
+		long result = Math.pow(x, power);
+		System.out.println("result is "+ result);
+
+	}
+
+}

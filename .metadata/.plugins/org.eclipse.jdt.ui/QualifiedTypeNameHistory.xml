@@ -36,4 +36,10 @@
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="lv.gundega.module.Team"/>
+<fullyQualifiedTypeName name="lv.gundega.repeatJavaClassOOP.MyClass"/>
+<fullyQualifiedTypeName name="lv.gundega.repeatJavaClassOOP.MyClassMethods"/>
+<fullyQualifiedTypeName name="lv.gundega.repeatJavaClassOOP.Encapsulation"/>
+<fullyQualifiedTypeName name="lv.gundega.repeatJavaClassOOP.MyEnums"/>
+<fullyQualifiedTypeName name="java.math.BigInteger"/>
+<fullyQualifiedTypeName name="lv.gundega.repeatJavaClassOOP.ClassExtendsAbstractClass"/>
 </qualifiedTypeNameHistroy>
